@@ -12,7 +12,7 @@
 
 1. 安装[Docker](https://docs.docker.com/get-started/get-docker/).
 2. 构建镜像：`docker build -t bili-history-fetcher-web:dev .`
-3. 启动容器：`docker run --name bili-history-fetcher-web -p 8080:80 -d bili-history-fetcher-web:dev`
+3. 启动容器：`docker run --name bili-history-fetcher-web -p 5173:80 -d bili-history-fetcher-web:dev`
 4. 停止容器：`docker stop bili-history-fetcher-web`
 
 ### 使用源码安装
